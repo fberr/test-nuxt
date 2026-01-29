@@ -36,7 +36,7 @@ Incluye funcionalidades como búsqueda, paginación y selección de artículos, 
 
 ```bash
 git clone https://github.com/fberr/test-nuxt.git
-cd nuxt4-prueba-tecnica
+cd test-nuxt
 ```
 
 2. Instala dependencias:
@@ -110,27 +110,6 @@ nuxt4-prueba-tecnica/
 ├─ nuxt.config.ts      # Configuración de Nuxt 4
 └─ package.json
 ```
-
----
-
-## Variables de entorno
-
-Crea un archivo .env en la raíz del proyecto:
-
-# URL base de la API de posts (frontend y backend)
-NUXT_PUBLIC_API_URL=https://jsonplaceholder.typicode.com
-
-# Cantidad de posts a traer
-NUXT_PUBLIC_POSTS_LIMIT=25
-
-# Puerto del servidor Nuxt (opcional)
-NUXT_PORT=3000
-
-# Modo de ejecución: 'development' o 'production'
-NUXT_PUBLIC_ENV=development
-
-
-Nota: Las variables que comienzan con NUXT_PUBLIC_ estarán disponibles tanto en frontend como en backend. Esto es necesario para acceder desde stores, componentes y páginas.                      |
 
 ---
 
